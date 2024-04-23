@@ -2,9 +2,9 @@
 TransfIGN is a structure-based DL method based on InteractionGraphNet and transformer to predict the interactions between HLA-A 02:01 and antigen peptides.
 
 # Dataset
-Our training and validation dataset was compiled from two datasets: Binding affinity (BA) dataset consisting of 9051 data points sourced from OnionMHC, eluted ligand (EL) dataset was derived from TransPHLA. This dataset is provided in ./data/train.  
+Training dataset was compiled from two datasets: Binding affinity (BA) dataset consisting of 9051 data points sourced from OnionMHC, eluted ligand (EL) dataset derived from TransPHLA. This dataset is provided in ./data/train.  
 
-Our test set was assembled from the IEDB weekly benchmark dataset starting from 2014 and can be categorized into three subsets: IC50, Binary and T1/2. Test set is provided in ./data/test.  
+Test dataset was assembled from the IEDB weekly benchmark dataset starting from 2014 and can be categorized into three subsets: IC50, Binary and T1/2. Test set is provided in ./data/test.  
 
 For binding affinity prediction comparison, the IC50 values are provided in ./data/test/IC50_RMSE.xlsx
 
