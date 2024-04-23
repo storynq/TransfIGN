@@ -130,7 +130,7 @@ if __name__ == '__main__':
     outdim_g3, d_FC_layer, n_FC_layer, dropout, n_tasks, mark = args.outdim_g3, args.d_FC_layer, args.n_FC_layer, args.dropout, args.n_tasks, args.mark
 
     HOME_PATH = os.getcwd()
-    all_data = pd.read_excel('./data/All_Data.xlsx')
+    all_data = pd.read_excel('./data/train/All_Data.xlsx')
 
     if not os.path.exists(model_save_dir):
         os.makedirs(model_save_dir)
