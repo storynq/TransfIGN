@@ -1,0 +1,7 @@
+#tleap.in
+source leaprc.protein.ff19SB
+source leaprc.water.opc
+x = loadpdb sample_new.pdb
+addIons x Na+ 0
+saveamberparm x x.prmtop x.inpcrd
+quit
